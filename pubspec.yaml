@@ -1,0 +1,55 @@
+name: gigmate
+description: "Delivery_plus - Smart Delivery Workforce System"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_messaging: ^14.7.10
+
+  firebase_storage: ^11.7.7
+  image_picker: ^1.0.7
+
+  # 🔥 Firebase
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.0   # ✅ ADD THIS
+  cloud_firestore: ^4.15.0
+
+  cupertino_icons: ^1.0.8
+
+  # 🌐 Networking
+  http: ^1.2.0
+
+  # 📍 Location
+  geolocator: ^10.1.1
+
+  # 🗺️ Maps
+  google_maps_flutter: ^2.6.0
+  flutter_polyline_points: ^2.1.0
+
+  # 🔗 External actions
+  url_launcher: ^6.2.5
+
+  # 📊 Charts
+  fl_chart: ^0.66.2
+
+  # 🔔 Notifications
+  flutter_local_notifications: ^17.2.0
+
+  # 🧠 State Management
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
